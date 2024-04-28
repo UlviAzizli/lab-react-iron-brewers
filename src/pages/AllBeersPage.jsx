@@ -33,7 +33,7 @@ function AllBeersPage() {
       }
     };
 
-    fetchSearchedBeers();
+    fetchSearchedBeers;
   }, [query]);
 
   const searchHandler = (string) => {
